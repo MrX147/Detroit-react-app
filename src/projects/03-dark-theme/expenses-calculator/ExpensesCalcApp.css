@@ -1,0 +1,113 @@
+.whole-body {
+  display: flex;
+  flex-wrap: wrap; /* Enable wrapping for responsiveness */
+  justify-content: space-between;
+  border: solid 3px green;
+  height: 100vh;
+  width: 80vw;
+  margin: 3px;
+}
+
+.my-form{
+  flex: 1; /* Take up equal space */
+  margin: 10px; /* Adjust margin as needed */
+  padding: 20px; /* Add padding for spacing */
+  border: solid 3px yellow;
+}
+.expenses-card {
+  flex: 1; /* Take up equal space */
+  margin: 10px; /* Adjust margin as needed */
+  padding: 20px; /* Add padding for spacing */
+  border: solid 3px red;
+  
+}
+.other-card {
+  flex-basis: 100%; /* Take up full width on a new line */
+  margin-top: 10px; /* Adjust margin-top to create space between rows */
+  padding: 20px; /* Add padding for spacing */
+  border: solid 2px; /* Add border as needed */
+  border: solid 3px grey;
+}
+  
+  .card {
+    padding: 16px;
+    border-radius: 24px;
+    align-self: flex-start;
+    margin: 6rem;
+  }
+
+  
+  
+  /* Rest of your styles... */
+  
+  .expenses-line{
+    background-color: #dad7d7;
+    display: flex;
+    justify-content: flex-end;
+    
+  }
+  .expenses-clr{
+    color: #3498db;
+  }
+  
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input {
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .button-submit{
+    padding: 10px;
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    /* border-radius: 5px; */
+    cursor: pointer;
+  }
+  .button-delete{
+    padding: 10px;
+    background-color: #cc2e2e;
+    color: #fff;
+    border: none;
+    /* border-radius: 5px; */
+    cursor: pointer;
+  }
+
+  .button-delete:hover {
+    background-color: #bd0c0c;
+  }
+  .button-submit:hover {
+    background-color: #0cbd1b;
+  }
+  h3 {
+    margin-top: 20px;
+  }
+  
+  p {
+    margin: 10px 0;
+  }
+  .edit-btn{
+    margin: 6px;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+  }
+  .edit-btn:hover {
+    background-color: #5faf65;
+  }
+  .del-btn{
+    margin: 6px;
+    background-color: rgb(209, 4, 4);
+    padding: 5px;
+  }
+  .del-btn:hover {
+    background-color: #d13d3d;
+    
+  }
+  h3{
+    color: purple;
+  }

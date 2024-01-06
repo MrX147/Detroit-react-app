@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.my-container{
+    display: inline;
+    position: relative;
+    left: 56px;
+}
+.my-navbar{
+    
+    position: relative;
+    left: 19px;
+}

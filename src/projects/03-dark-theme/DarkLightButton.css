@@ -1,0 +1,19 @@
+.my-btn{
+  position: absolute;
+  font-size: 19px;
+  bottom: 7px;
+  right: 92px;
+  border-radius: 10px;
+  border-color: black;
+    
+
+      
+  }
+
+  .my-btn:hover{
+   
+    background-color: #d8c8c877;
+
+
+      
+  }

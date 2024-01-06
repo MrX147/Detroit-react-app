@@ -1,0 +1,13 @@
+
+ .container {
+    text-align: center;
+    margin: 20px;
+    /* position: relative; */
+   }
+  p{
+    font-size: 30px;
+  }
+  .title{
+    font-size: 50px;
+    font-weight: 40px;
+  }
